@@ -21,21 +21,21 @@ const About=()=>{
       <section>
       <header class="c-header u-double-down">
         <h1 class="c-header__title js-greeting">
-            Well hello there,
+           
         </h1><br/>
         <h1 class="c-header__title">
-            make yourself at home
+            
         </h1>
     </header>
 
     <div class="o-duo o-duo--limit">
         <div class="o-duo__item">
+           <p align="center">Sobre Mi</p>
             <p class="c-lead c-lead--sm">
-                We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
         </div>
         <div class="o-duo__item is-quarantine">
-            <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow a single point of contact for all your design needs. &nbsp;</p>
 <p>
 </p>
 <p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with <em>honesty</em>&nbsp;and <em>reliability</em> as valued in our studio as <em>creativity</em> and <em>innovation</em>.</p>
@@ -97,7 +97,7 @@ const App=()=>{
     <div className="barranav">
       <BarraNav/>
       <Portada/>
-      {/* <About/> */}
+      <About/>
      <Portafolio/>
       <Contact/>    
     </div>    

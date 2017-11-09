@@ -41,13 +41,13 @@ $color-red:#FF4C2C;
 // seccion portada
 .contportada{
     background-image: "https://assets.awwwards.com/awards/sites_of_the_day/2017/10/Fanny-Myard-cover.jpg";
-    height: 500px;
+    height: 300px;
   }
 .contportada { 
     img {
     margin-top: 80px;
-    width: 10px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     }
     p {
         font-size: 30px;
@@ -63,7 +63,7 @@ $color-red:#FF4C2C;
     margin-right: 8px;
     
     img {
-        width: 100px;
+        width: 300px;
         height: 300px;
         margin: 0 0 5px;
     }
@@ -100,23 +100,3 @@ $color-red:#FF4C2C;
     }
 }
 
-// @media screen and (max-width: 750px) {
-//   .barranav {
-//     display: none;
-//     background-color:$color-red;
-//   }
-// }
-// seccion barra de navegacion
-// $font-stack:Helvetica, sans-serif;
-// $color-yellow:#FACC2E;
-// $color-black:#000000;
-// $color-white:#fff;
-// $color-bluelight:#B6ECEC;
-// $color-red:#FF4C2C;
-
-// .navbar-default {
-//     background-color:$color-yellow;
-//     border-color:$color-yellow;
-//     position: fixed;
-//     width: 100%;
-// }
