@@ -97,7 +97,7 @@ const App=()=>{
     <div className="barranav">
       <BarraNav/>
       <Portada/>
-      <About/>
+      {/* <About/> */}
      <Portafolio/>
       <Contact/>    
     </div>    
