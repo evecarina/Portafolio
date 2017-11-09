@@ -1,0 +1,43 @@
+.navbar-default {
+  background-color: #FACC2E;
+  border-color: #FACC2E;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #000000;
+}
+
+.navbar-nav li {
+  font-size: 1.3125rem;
+  line-height: 1.3125rem;
+  border: 2px solid transparent;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.navbar-nav li:hover {
+  border-color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+  .barranav {
+    display: none;
+    background-color: red;
+  }
+}
+
+.portada {
+  background-color: #A1E8FA;
+  height: 500px;
+}
+
+.portada .portada-name {
+  color: #000000;
+  margin-top: 100px;
+  margin: 100px;
+}
+ 
+
+ /*# sourceMappingURL= inicio.css.map */

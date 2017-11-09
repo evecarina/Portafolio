@@ -1,0 +1,47 @@
+
+// seccion barra de navegacion
+$font-stack:Helvetica, sans-serif;
+$color-yellow:#FACC2E;
+$color-black:#000000;
+$color-white:#fff;
+
+.navbar-default {
+    background-color:$color-yellow;
+    border-color:$color-yellow;
+    position: fixed;
+    width: 100%;
+    .navbar-nav li a {
+        color:$color-black;
+    }    
+}
+
+.navbar-nav li{
+    font-size: 1.3125rem;
+    line-height: 1.3125rem;    
+    border: 2px solid transparent;
+    padding: 10px 16px;
+    text-decoration: none;
+    &:hover{
+        border-color:$color-white;
+    }
+}
+       
+@media screen and (max-width: 750px) {
+  .barranav {
+    display: none;
+    background-color: red;
+  }
+}
+// seccion portada
+.portada{
+    background-color:#A1E8FA;
+    height: 500px;  
+   .portada-name{
+    color: #000000;
+    margin-top: 100px;
+    margin:100px;
+   }
+   
+}
+  
+
