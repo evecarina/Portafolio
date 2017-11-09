@@ -16,6 +16,34 @@ const BarraNav = () => {
     </nav>      
      );   
 }
+const About=()=>{
+  return (
+      <section>
+      <header class="c-header u-double-down">
+        <h1 class="c-header__title js-greeting">
+            Well hello there,
+        </h1><br/>
+        <h1 class="c-header__title">
+            make yourself at home
+        </h1>
+    </header>
+
+    <div class="o-duo o-duo--limit">
+        <div class="o-duo__item">
+            <p class="c-lead c-lead--sm">
+                We’re a graphic and web design agency working with clients worldwide to deliver unforgettable projects that take established brands to new heights and launch ambitious start-ups towards their goals.
+            </p>
+        </div>
+        <div class="o-duo__item is-quarantine">
+            <p>Our team of award winning designers, developers and problem solvers have brought energy and personality to brands of all shapes and sizes over the last 10 years. From branding to print, web design and illustration; our diverse services allow a single point of contact for all your design needs. &nbsp;</p>
+<p>
+</p>
+<p>We like to build close relationships with our clients, priding ourselves on offering the very best customer service with <em>honesty</em>&nbsp;and <em>reliability</em> as valued in our studio as <em>creativity</em> and <em>innovation</em>.</p>
+        </div>
+    </div>
+      </section>
+  );
+}
 const Portada=()=>{
   return(
     <section className="contportada">
@@ -27,16 +55,15 @@ const Portada=()=>{
     </section>
   );
 }
-
 const Portafolio=()=>{
   return( 
-  <section className="portafolios">
+  <section className="portafolios" >
   <p align="center">PORTFOLIO</p>
   <div align="center">
   <div>
-    <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png"alt=""/></div>
-    <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png" alt=""/></div>
-    <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png" alt=""/></div>
+  <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbh35YAoVjAH_39WGnrbi4lkYpx3AfcpsOKAJ7O5wVlZzb7VRY" alt=""/></div>
+    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbh35YAoVjAH_39WGnrbi4lkYpx3AfcpsOKAJ7O5wVlZzb7VRY" alt=""/></div>
+    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbh35YAoVjAH_39WGnrbi4lkYpx3AfcpsOKAJ7O5wVlZzb7VRY" alt=""/></div>
   </div>
   <div>
     <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbh35YAoVjAH_39WGnrbi4lkYpx3AfcpsOKAJ7O5wVlZzb7VRY" alt=""/></div>
@@ -68,8 +95,9 @@ const Contact=()=>{
 const App=()=>{
   return(
     <div className="barranav">
-      <BarraNav/>,
-      <Portada/>,
+      <BarraNav/>
+      <Portada/>
+      <About/>
      <Portafolio/>
       <Contact/>    
     </div>    
