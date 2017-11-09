@@ -4,6 +4,8 @@ $font-stack:Helvetica, sans-serif;
 $color-yellow:#FACC2E;
 $color-black:#000000;
 $color-white:#fff;
+$color-bluelight:#B6ECEC;
+$color-red:#FF4C2C;
 
 .navbar-default {
     background-color:$color-yellow;
@@ -14,7 +16,6 @@ $color-white:#fff;
         color:$color-black;
     }    
 }
-
 .navbar-nav li{
     font-size: 1.3125rem;
     line-height: 1.3125rem;    
@@ -29,19 +30,64 @@ $color-white:#fff;
 @media screen and (max-width: 750px) {
   .barranav {
     display: none;
-    background-color: red;
+    background-color:$color-red;
   }
 }
-// seccion portada
-.portada{
-    background-color:#A1E8FA;
-    height: 500px;  
-   .portada-name{
-    color: #000000;
-    margin-top: 100px;
-    margin:100px;
-   }
    
+// seccion portada
+.contportada{
+    margin-top: 10px;
 }
-  
+.contportada { 
+    img {
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+    }
+    p {
+        font-size: 30px;
+        color: #000000;
+        font-size: 20px;
+    }    
+}
 
+// seccion portafolio
+.portafolios div {
+    display: inline-block;
+    margin: 10px 10px 10px 50px;
+    img {
+        width: 300px;
+    }
+}
+
+// seccion contacto
+.contacto{
+    input {
+        margin-left: 300px;
+        margin-top: 15px;
+        width: 50%;
+        display: inline-block;
+      }
+       button {
+        margin-top: 15px;
+        margin-left: 300px;
+        display: inline-block;
+    }
+} 
+
+
+// seccion location
+#loc2 {
+    div {
+        display: inline-block;
+        margin: 1px 5px 5px 170px;
+    }
+     a {
+        display: inline-block;
+        margin: 1px 2px 5px 3px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
