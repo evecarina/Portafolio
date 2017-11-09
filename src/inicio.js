@@ -21,8 +21,8 @@ const Portada=()=>{
     <section className="contportada">
       <div id="start" align="center">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyMyJI3SIy1AqnBS4XUSg-t5DsxgEW2dm1q0aoASOtaDY75RcC" alt=""/>
-        <p>START BOOTSTRAPT</p>
-        <p>Web Developer- Graphic Artist- User Experiencie Designer</p>
+        <p>Evelyn Guevara</p>
+        <p>Frond-End Developer </p>
       </div>
     </section>
   );

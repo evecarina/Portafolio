@@ -1,13 +1,23 @@
-
+// seccion barra de navegacion
+$font-stack:Helvetica, sans-serif;
+$color-yellow:#FACC2E;
+$color-black:#000000;
+$color-white:#fff;
+$color-bluelight:#B6ECEC;
+$color-red:#FF4C2C;
 @import 'variables';
-// seccion barraNavegacion
+
 .navbar-default {
     background-color:$color-yellow;
     border-color:$color-yellow;
     position: fixed;
     width: 100%;
-
-    .navbar-nav li{ 
+    .navbar-nav li a {
+        @include large-text;
+        color:$color-black;
+    }    
+}
+.navbar-nav li{
     font-size: 1.3125rem;
     line-height: 1.3125rem;    
     border: 2px solid transparent;
@@ -15,13 +25,7 @@
     text-decoration: none;
     &:hover{
         border-color:$color-white;
-    } 
-
-    .navbar-nav li a {
-     @include large-text;
-    }    
-}
-  
+    }
 }
 // creando mixins
 @mixin large-text {
@@ -30,9 +34,16 @@
       size: 20px;
       weight: bold;
     }
-    color: #000000;
+    color: #ff0000;
   }
-
+       
+// @media screen and (max-width: 750px) {
+//   .barranav {
+//     display: none;
+//     background-color:$color-red;
+//   }
+// }
+   
 // seccion portada
 .contportada{
     margin-top: 10px;
@@ -49,15 +60,21 @@
         font-size: 20px;
     }    
 }
+
 // seccion portafolio
 .portafolios div {
-    display: inline-block;  
+    display: inline-block;
+    // margin: 10px 10px 10px 50px;
+    // margin-right: 10px;
+    
     img {
         width: 300px;
         height: 300px;
         margin: 0 0 10px;
     }
 }
+
+
 // seccion contacto
 .contacto{
     input {
@@ -74,6 +91,8 @@
         margin: 0 0 10px;
     }
 } 
+
+
 // seccion location
 #loc2 {
     div {
@@ -89,11 +108,3 @@
         height: 50px;
     }
 }
-
-// @media screen and (max-width: 750px) {
-//   .barranav {
-//     display: none;
-//     background-color:$color-red;
-//   }
-// }
-   
