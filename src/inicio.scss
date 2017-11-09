@@ -27,12 +27,12 @@ $color-red:#FF4C2C;
     }
 }
        
-@media screen and (max-width: 750px) {
-  .barranav {
-    display: none;
-    background-color:$color-red;
-  }
-}
+// @media screen and (max-width: 750px) {
+//   .barranav {
+//     display: none;
+//     background-color:$color-red;
+//   }
+// }
    
 // seccion portada
 .contportada{
@@ -54,11 +54,16 @@ $color-red:#FF4C2C;
 // seccion portafolio
 .portafolios div {
     display: inline-block;
-    margin: 10px 10px 10px 50px;
+    // margin: 10px 10px 10px 50px;
+    // margin-right: 10px;
+    
     img {
         width: 300px;
+        height: 300px;
+        margin: 0 0 10px;
     }
 }
+
 
 // seccion contacto
 .contacto{
@@ -67,11 +72,13 @@ $color-red:#FF4C2C;
         margin-top: 15px;
         width: 50%;
         display: inline-block;
+        margin: 0 0 10px;
       }
        button {
         margin-top: 15px;
         margin-left: 300px;
         display: inline-block;
+        margin: 0 0 10px;
     }
 } 
 

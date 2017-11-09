@@ -21,13 +21,6 @@
   border-color: #fff;
 }
 
-@media screen and (max-width: 750px) {
-  .barranav {
-    display: none;
-    background-color: #FF4C2C;
-  }
-}
-
 .contportada {
   margin-top: 10px;
 }
@@ -46,11 +39,12 @@
 
 .portafolios div {
   display: inline-block;
-  margin: 10px 10px 10px 50px;
 }
 
 .portafolios div img {
   width: 300px;
+  height: 300px;
+  margin: 0 0 10px;
 }
 
 .contacto input {
@@ -58,12 +52,14 @@
   margin-top: 15px;
   width: 50%;
   display: inline-block;
+  margin: 0 0 10px;
 }
 
 .contacto button {
   margin-top: 15px;
   margin-left: 300px;
   display: inline-block;
+  margin: 0 0 10px;
 }
 
 #loc2 div {

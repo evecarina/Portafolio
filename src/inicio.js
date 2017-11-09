@@ -5,9 +5,9 @@ import { connect } from "redux-zero/react";
 
 const BarraNav = () => {   
   return(       
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">        
-          <ul class="nav navbar-nav">         
+      <nav className="navbar navbar-default">
+        <div className="container-fluid">        
+          <ul className="nav navbar-nav">         
             <li className="col-md-4 col-xs-4"><a href="#">Conoceme</a></li>
             <li className="col-md-4 col-xs-4"><a href="#">Portafolio</a></li>
             <li className="col-md-4 col-xs-4"><a href="#">Contacto</a></li>
@@ -32,11 +32,11 @@ const Portafolio=()=>{
   return( 
   <section className="portafolios">
   <p align="center">PORTFOLIO</p>
-  <div className="">
+  <div align="center">
   <div>
     <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png"alt=""/></div>
     <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png" alt=""/></div>
-    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoZZOwg_YFf8OL3MzY7_Nw707O2ah3c50y_Fxx3FKy32CCUH6QRQ" alt=""/></div>
+    <div><img src="http://webbingstone.com/wp-content/uploads/services-mobile-marketing-380x380.png" alt=""/></div>
   </div>
   <div>
     <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbh35YAoVjAH_39WGnrbi4lkYpx3AfcpsOKAJ7O5wVlZzb7VRY" alt=""/></div>
@@ -51,7 +51,7 @@ const Portafolio=()=>{
 
 const Contact=()=>{
   return(
-  <section className="contacto">
+  <section className="contacto" align="center">
     <p align="center">CONTACT ME</p>
 		<p align="center"></p>
 		<div>
