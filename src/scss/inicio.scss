@@ -1,0 +1,325 @@
+// seccion barra de navegacion
+$font-stack:Helvetica, sans-serif;
+$color-yellow:#FACC2E;
+$color-black:#000000;
+$color-white:#fff;
+$color-bluelight:#B6ECEC;
+$color-red:#FF4C2C;
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+@import 'portafolio';
+
+.navbar-default {
+    background-color:$color-yellow;
+    border-color:$color-yellow;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    width: 100%;       
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-default .navbar-nav li {
+    a{
+        color:#000000;
+    }
+    padding: 5px 16px;        
+    &:hover{
+        color:$color-white;
+    }
+}
+.navbar-nav .c-nav-link {      
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-family: 'Lusitana', serif;
+    font-size: 1.5rem;
+    line-height: 1.3125rem;
+    font-weight: 700;
+    &:hover{
+        border-color:$color-white;
+    }   
+}
+// imagen de fondo
+.contportada #start{
+    background-image: url("https://assets.awwwards.com/awards/sites_of_the_day/2017/10/Fanny-Myard-cover.jpg");
+    width: 100%;
+    height:668px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+// datos de mi portada
+.collection_container {
+    transform: translate3d(0,0,0);
+    color: $color-white;    
+    margin-top: 20%; 
+}
+.contportada button {
+    border: none;
+    background: #49c5b6;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+    margin-top: 1%;
+}
+.contportada button:hover {
+    background: rgba(0,0,0,0);
+    color: #49c5b6;
+    box-shadow: inset 0 0 0 2px #49c5b6;
+}   
+//seccion portafolio
+.o-container {
+    width: 90%;
+    max-width: 1280px;
+}
+@media screen and (max-width: 1022.99px){ 
+.o-triad__item {
+    width: 100%;    
+}
+}
+.o-triad__item {
+    margin-top: 10%;        
+    padding: 0 15px;
+    width: 33.33%;
+    display: inline-block;
+}
+a.c-card {
+    text-decoration: none;
+}
+.c-card__cover>* {
+    display: block;
+    width: 100%;
+}
+.c-card__content{
+    margin-top: 10%;
+}
+.c-meta {
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+    margin-bottom: 15px;
+    color: #e94a4f;
+    font-style: italic;
+}
+.c-btn-text {
+    font-size: 1.6875rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+    color: #215e7f;
+}
+
+.c-btn-text:after {
+    display: inline-block;
+    margin-left: 3px;
+    background: url("https://rootstudio.co.uk/fonts/arrow-right-candy.svg?4cc3de51e4c8e7f53ef15bca1547bd48") no-repeat 50% 50%;
+    background-size: contain;
+    width: 18px;
+    height: 13px;
+    vertical-align: baseline;
+    content: "";
+}
+
+
+// seccion contacto definitivo
+.t-site-footer {
+    position: relative;
+    background-color: #e94a4f;
+    padding: 25px 0;
+}
+.t-site-footer:before {
+    top: -35px;
+    left: 0;
+    background: url("https://rootstudio.co.uk/fonts/edge-candy.svg?5bd0932cfc4d1b08345366f2bd1a7d8f") repeat-x 50% 0;
+    background-size: auto 100%;
+    width: 100%;
+    height: 36px;
+}
+
+.t-site-footer:after, .t-site-footer:before {
+    display: block;
+    position: absolute;
+    content: "";
+}
+.o-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.o-container {
+    width: 90%;
+    max-width: 1280px;
+    position: relative;
+}
+
+.o-corset {
+    max-width: 955px;
+}
+
+.o-corset {
+    margin-right: auto;
+    margin-left: auto;
+}
+.u-clearfix:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content: " ";
+}
+.t-site-footer__offices {
+    display: table;
+}
+.t-site-footer__offices>:not(:last-child) {
+    padding-right: 30px;
+}
+
+.c-contactable {
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #fff;
+}
+.t-site-footer__offices>* {
+    display: table-cell;
+    max-width: 230px;
+    vertical-align: top;
+}
+.c-contactable__title {
+    font-weight: 900;
+    display: block;
+    margin-bottom: 8px;
+}
+.c-contactable__info {
+    font-weight: 400;
+}
+.c-contactable__info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+// .t-site-footer__social {
+//     float: right;
+// }
+.c-contactable {
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #fff;
+}
+.c-contactable__title {
+    font-weight: 900;
+    display: block;
+    margin-bottom: 8px;
+}
+.c-contactable__info {
+    font-weight: 400;
+}
+.o-group {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+}
+.o-group__item:not(:last-child) {
+    padding-right: 20px;
+}
+
+.o-group__item {
+    display: table-cell;
+    vertical-align: middle;
+}
+.c-contactable__info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.c-btn-social {
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.c-btn-social svg {
+    display: block;
+    fill: currentColor;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+.t-site-footer:after {
+    top: -61px;
+    left: 50%;
+    margin-left: -43px;
+    background: url("https://rootstudio.co.uk/fonts/root-badge.svg?91d178ee1edc3a8daea3b710b5ae9581") repeat-x 50% 50%;
+    width: 86px;
+    height: 86px;
+}
+// contacto modo celular
+@media only screen and (max-width: 490px){
+.t-site-footer {
+    padding: 40px 0;
+}
+}
+
+@media only screen and (max-width: 790px){
+.t-site-footer {
+    text-align: center;
+}
+}
+.t-site-footer {
+    position: relative;
+    background-color: #e94a4f;
+}
+
+@media only screen and (max-width: 490px){ 
+.t-site-footer__offices {
+    display: block;
+}
+}
+@media only screen and (max-width: 790px){ 
+.t-site-footer__offices {
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 790px){ 
+.t-site-footer__offices {
+    float: none;
+}
+}
+
+@media only screen and (max-width: 490px){ 
+.t-site-footer__offices>:not(:last-child) {
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+}
+@media only screen and (max-width: 490px){ 
+.t-site-footer__offices>* {
+    display: block;
+    max-width: none;
+}
+}
+
+@media only screen and (max-width: 790px) {
+.t-site-footer__social {
+    padding-top: 40px;
+}
+}
+
+@media only screen and (max-width: 790px){ 
+.t-site-footer__offices, .t-site-footer__social {
+    float: none;
+}
+}
+@media only screen and (max-width: 790px){ 
+.t-site-footer__social .o-group {
+    margin-right: auto;
+    margin-left: auto;
+}
+}
